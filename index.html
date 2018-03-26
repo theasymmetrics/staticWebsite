@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>The Asymmetrics</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-    
+
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
@@ -18,7 +18,7 @@
 </head>
 
 <body class="index-page sidebar-collapse">
-    
+
 
 
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent text-dark" color-on-scroll="400">
@@ -51,9 +51,9 @@
                             <p>Coding</p>
                         </a>
                     </li>
-                    
+
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Listen on Soundcloud" data-placement="bottom" href="https://soundcloud.com/theasymmetrics target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Listen on Soundcloud" data-placement="bottom" href="https://soundcloud.com/theasymmetrics" target="_blank">
                             <i class="fa fa-soundcloud"></i>
                             <p class="d-lg-none d-xl-none">Soundcloud</p>
                         </a>
@@ -86,9 +86,9 @@
             </div>
         </div>
     </nav>
-    
+
     <div class="wrapper">
-        
+
         <div class="page-header clear-filter" filter-color="orange">
             <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/header.jpg');">
             </div>
@@ -102,13 +102,13 @@
             </div>
         </div>
     </div>
-        
-       
+
+
 
 
 
     <div class="main">
-        
+
             <div class="section section-music">
                 <div class="container">
                     <div class="row">
@@ -124,7 +124,7 @@
                             <p class="category">Latest Track</p>
                             <div class="card">
                                 <div class="card-body">
-                                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/360383174&color=%23ded9c8&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>  
+                                    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/360383174&color=%23ded9c8&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -135,10 +135,10 @@
             <div class="section section-tabs">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10 col-lg-8 col-xl-8 ml-auto mr-auto">
-                            <div id="instafeed"></div>
+                        <div class="col-md-6 col-lg-6 col-xl-6 ml-auto mr-auto">
+                            <div id="instafeed" style="text-align:center"></div>
                         </div>
-                        <div class="col-md-10 col-lg-8 col-xl-4 ml-auto mr-auto">
+                        <div class="col-md-6 col-lg-6 col-xl-6 ml-auto mr-auto">
                             <div>
                                 <a class="twitter-timeline" data-width="355" data-height="450" data-theme="light" data-link-color="#0ed6c2" href="https://twitter.com/TheAsymmetrics?ref_src=twsrc%5Etfw">Tweets by TheAsymmetrics</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </div>
@@ -146,10 +146,10 @@
                     </div>
                 </div>
             </div>
-          
-            
-            
-           
+
+
+
+
 
             <div class="section section-coding">
                 <div class="container text-center">
@@ -162,8 +162,8 @@
                     </div>
                 </div>
             </div>
-            
-            
+
+
             <div class="section" data-background-color="black">
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -180,8 +180,8 @@
                 </div>
             </div>
         </div>
-        
-     
+
+
 
         <footer class="footer" data-background-color="black">
             <div class="container">
@@ -204,7 +204,7 @@
 <script src="./assets/js/instafeed.min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-    
+
     $(document).ready(function() {
         console.log("You like our work? Interesting in Design, Front-end, Back-end, Dev-ops, Growth Hack....? Contact us theasymmetrics@caramail.com")
     });
@@ -214,7 +214,7 @@
             $("html, body").animate({
                 scrollTop: $('.section-music').offset().top
             }, 1000);
-        }  
+        }
     }
 
     function scrollToTabs() {
@@ -222,7 +222,7 @@
             $("html, body").animate({
                 scrollTop: $('.section-tabs').offset().top
             }, 1000);
-        }  
+        }
     }
 
     function scrollToCoding(){
@@ -238,8 +238,8 @@
         userId: '6692237229',
         limit: 6,
         resolution: 'standard_resolution',
-        template: '<a href="{{link}}"><img src="{{image}}" alt="TheAsymmetrics" style="width: 30%; margin-bottom:10px; margin-right:10px" /></a>',
-        accessToken: '6692237229.1677ed0.fe145b6b5cb1467e8c504727b3b9a90a'    
+        template: '<a href="{{link}}"><img src="{{image}}" alt="TheAsymmetrics" style="width: 40%; margin-bottom:5px; margin-right:5px" /></a>',
+        accessToken: '6692237229.1677ed0.fe145b6b5cb1467e8c504727b3b9a90a'
     });
     feed.run();
 </script>
